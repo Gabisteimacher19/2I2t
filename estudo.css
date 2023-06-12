@@ -2,7 +2,183 @@
     margin: 0;
     padding: 0;
 }
+body {* {
+2
+    margin: 0;
+3
+    padding: 0;
+4
+}
+5
 body {
+6
+    background-color: papayawhip;
+7
+}
+8
+.item {
+9
+    width: 100px;
+10
+    height: 100px;
+11
+    background-color: darkgreen;
+12
+    margin-top: 10px;
+13
+    margin-left: 10px;
+14
+}
+15
+.conteudo {
+16
+    display: grid;
+17
+    grid-template-columns: 20% 20% 20% 20%;
+18
+    justify-content: center;
+19
+    align-items: center;
+20
+}
+21
+.meu-site {
+22
+    display: grid;
+23
+    grid-template-columns: 200px 1fr;
+24
+    grid-template-areas:
+25
+            "menu menu menu"
+26
+            "lado principal principal"
+27
+            "rodape rodape rodape"
+28
+    ;
+29* {
+2
+    margin: 0;
+3
+    padding: 0;
+4
+}
+5
+body {
+6
+    background-color: papayawhip;
+7
+}
+8
+.item {
+9
+    width: 100px;
+10
+    height: 100px;
+11
+    background-color: darkgreen;
+12
+    margin-top: 10px;
+13
+    margin-left: 10px;
+14
+}
+15
+.conteudo {
+16
+    display: grid;
+17
+    grid-template-columns: 20% 20% 20% 20%;
+18
+    justify-content: center;
+19
+    align-items: center;
+20
+}
+21
+.meu-site {
+22
+    display: grid;
+23
+    grid-template-columns: 200px 1fr;
+24
+    grid-template-areas:
+25
+            "menu menu menu"
+26
+            "lado principal principal"
+27
+            "rodape rodape rodape"
+28
+    ;
+29
+}
+30
+.menu {
+31
+    height: 10vh;
+32
+    background-color: mediumseagreen;
+33
+}
+34
+.lado {
+35
+    height: 20vh;
+36
+    background-color:  seagreen;
+37
+}    
+38
+.principal {
+39
+    height: 60vh;
+40
+    background-color: green;
+41
+}
+42
+.rodape {
+43
+    height: 10vh;
+44
+    background-color: darkgreen;
+45
+}
+}
+30
+.menu {
+31
+    height: 10vh;
+32
+    background-color: mediumseagreen;
+33
+}
+34
+.lado {
+35
+    height: 20vh;
+36
+    background-color:  seagreen;
+37
+}    
+38
+.principal {
+39
+    height: 60vh;
+40
+    background-color: green;
+41
+}
+42
+.rodape {
+43
+    height: 10vh;
+44
+    background-color: darkgreen;
+45
+}
     background-color: papayawhip;
 }
 .item {
@@ -20,26 +196,30 @@ body {
 }
 .meu-site {
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 20% 40% 40%;
     grid-template-areas:
             "menu menu menu"
             "lado principal principal"
             "rodape rodape rodape"
-    ;
+            ;
 }
 .menu {
     height: 10vh;
     background-color: mediumseagreen;
+    grid-area: menu;
 }
 .lado {
-    height: 20vh;
+    height: 80vh;
     background-color:  seagreen;
+    grid-area: lado;
 }    
 .principal {
-    height: 60vh;
+    height: 80vh;
     background-color: green;
+    grid-area: principal;
 }
 .rodape {
     height: 10vh;
     background-color: darkgreen;
+    grid-area: rodape;
 }
