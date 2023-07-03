@@ -106,38 +106,23 @@ ul{
 }
 .conteudo-musica{
      width: 100%;
-
+     display: grid;
+     grid-template-columns: 100%;
 }
 .rodape{
     width: 100%;
     background-color: rgb(0, 25, 253);
     text-align: center  ;
 }
-.desc-estilo{
-    width: 100;
-   background-color: rgb(5, 5, 248);
-
+.definicao {
+    width: 100vw;
+    padding: 5px;
 }
-.desc-solo{
-    width: 100;
-background-color: rgb(2, 2, 187);
-
+.img-definicao {
+    display: none;
 }
-.desc-grupo{
-    width: 100;
-background-color: rgb(19, 0, 146);
-
-}
-.desc-banda{
-    width: 100;
-background-color: rgb(15, 0, 150) ;
-}
-.desc-app{
-    width: 100;
-background-color: rgb(8, 0, 117);
-}
-.img-ini{
-    width: 100%;
+.descricao {
+    
 }
 @media screen and (min-width: 768px){
    .nav{
