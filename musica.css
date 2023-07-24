@@ -5,8 +5,8 @@
 }
 :root{
     --fundo: rgba(4, 0, 255, 0.863);
-    --fonte: rgb(0, 0, 0);
-    --hover: rgb(28, 1, 46,);
+    --fonte: rgb(255, 255, 255);
+    --hover: rgb(0, 132, 255);
 
 
 }
@@ -21,7 +21,7 @@ ul{
 }
 .header{
 
-    background-color: var(--fonte);
+    background-color: var(--fundo);
     width: 100%;
     position: sticky;
     top: 0;
@@ -106,23 +106,38 @@ ul{
 }
 .conteudo-musica{
      width: 100%;
-     display: grid;
-     grid-template-columns: 100%;
+
 }
 .rodape{
     width: 100%;
     background-color: rgb(0, 25, 253);
     text-align: center  ;
 }
-.definicao {
-    width: 100vw;
-    padding: 5px;
+.desc-estilo{
+    width: 100;
+   background-color: rgb(5, 5, 248);
+
 }
-.img-definicao {
-    display: none;
+.desc-solo{
+    width: 100;
+background-color: rgb(2, 2, 187);
+
 }
-.descricao {
-    
+.desc-grupo{
+    width: 100;
+background-color: rgb(19, 0, 146);
+
+}
+.desc-banda{
+    width: 100;
+background-color: rgb(15, 0, 150) ;
+}
+.desc-app{
+    width: 100;
+background-color: rgb(8, 0, 117);
+}
+.img-ini{
+    width: 100%;
 }
 @media screen and (min-width: 768px){
    .nav{
